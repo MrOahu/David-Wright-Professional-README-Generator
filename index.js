@@ -57,7 +57,7 @@ function writeToFile(fileName, data) {}
 function init() {
     inquirer.prompt(questions).then(data => {
        console.log(data)
-        fs.writeFileSync("readmetest.md", generateMarkdown(data) )
+        fs.writeFileSync("readmetest2.md", generateMarkdown(data) )
     })
 }
 

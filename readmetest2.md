@@ -1,4 +1,4 @@
-# Professional README Generator
+# README Generator
 
 
 # Table of Contents
@@ -10,13 +10,13 @@
 6. [Questions](#github)
 
 ## Description 
-Creates README
+creates readme
 
 ## Installation
-npmi 
+npm i
 
 ## Usage
-Answer questions
+answer questions
 
 ## Contribution
 David Wright
