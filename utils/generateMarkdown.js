@@ -17,7 +17,7 @@ function renderLicenseLink(license) {}
 // need to add table of contents
 function generateMarkdown(data) {
   return `# ${data.title}
-
+${renderLicenseBadge(data.license)}
 
 # Table of Contents
 1. [Description](#description)
