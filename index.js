@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {}
 function init() {
     inquirer.prompt(questions).then(data => {
        console.log(data)
-        fs.writeFileSync("readmetest3.md", generateMarkdown(data) )
+        fs.writeFileSync("readmetest4.md", generateMarkdown(data) )
     })
 }
 

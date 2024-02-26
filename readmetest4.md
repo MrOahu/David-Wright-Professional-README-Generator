@@ -1,5 +1,5 @@
 # Professional README Generator
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 # Table of Contents
 1. [Description](#description)
@@ -7,10 +7,11 @@
 3. [Usage](#usage)
 4. [Contribution](#contribution)
 5. [Test](#test)
-6. [Questions](#github)
+6. [License](#license)
+7. [Questions](#github)
 
 ## Description 
-A README generator designed for convenience.
+Allows user to conveniently generate a README. 
 
 ## Installation
 npm i
@@ -25,8 +26,9 @@ David Wright
 n/a
 
 ## License
-This app is licensed under: Apache
+This app is licensed under: ISC
 
 ## Questions
 Check out my GitHub at www.github.com/MrOahu
+<br>
 Email: davidwright7793@gmail.com

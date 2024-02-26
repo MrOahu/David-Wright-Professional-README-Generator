@@ -14,10 +14,11 @@ function renderLicenseBadge(license) {
   else if(license === "Mozilla"){
     return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
 }
+  else if(license === "None"){
+  return ``
+}
+}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
 
 
 
@@ -33,7 +34,8 @@ ${renderLicenseBadge(data.license)}
 3. [Usage](#usage)
 4. [Contribution](#contribution)
 5. [Test](#test)
-6. [Questions](#github)
+6. [License](#license)
+7. [Questions](#github)
 
 ## Description 
 ${data.description}
@@ -55,6 +57,7 @@ This app is licensed under: ${data.license}
 
 ## Questions
 Check out my GitHub at www.github.com/${data.github}
+<br>
 Email: ${data.email}
 `;
 }
