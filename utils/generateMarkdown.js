@@ -5,6 +5,9 @@ function renderLicenseBadge(license) {
     return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   }
   // other licenses
+  else if(license === "MIT"){
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+  }
 }
 
 // TODO: Create a function that returns the license link
