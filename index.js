@@ -39,6 +39,12 @@ const questions = [
     },
     //place license here
     {
+        type: "list",
+        name: "license",
+        message: "Please choose a license for your app",
+        choices: ["Apache", "MIT", "ISC", "Mozilla", "None"]
+    },
+    {
         type: "input",
         name: "github",
         message: "Please enter your GitHub username."
